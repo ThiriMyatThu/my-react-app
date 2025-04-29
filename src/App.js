@@ -11,7 +11,7 @@ function App() {
 
       </nav>
       <Routes>
-        <Route path="/" element={<h1>Welcome Home!</h1>} />
+        <Route path="/" element={<h1>Welcome from Hooks Exerise!</h1>} />
         <Route path="/register" element={<RegisterForm />} />
       </Routes>
 
