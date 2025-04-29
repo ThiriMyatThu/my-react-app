@@ -1,3 +1,4 @@
+import React from "react";
 import "./App.css";
 import RegisterForm from "./m2_hook";
 import { Routes, Route, Link } from "react-router-dom";
@@ -6,7 +7,7 @@ function App() {
   return (
     <div>
       <nav>
-        <Link to="/RegisterForm" className="nav-item">Module 2 _ Hooks</Link>
+      <Link to="/register" className="nav-item">Module 2 _ Hooks</Link>
 
       </nav>
       <Routes>
@@ -19,3 +20,4 @@ function App() {
 };
 
 export default App;
+ 
